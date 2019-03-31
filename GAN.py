@@ -238,7 +238,7 @@ def train():
             if not os.path.exists('./model/' + version):
                 os.makedirs('./model/' + version)
             saver.save(sess, './model/' +version + '/' + str(i))  
-        if i%5 == 0:
+        if i%10 == 0:
             # save images
             if not os.path.exists(newPoke_path):
                 os.makedirs(newPoke_path)
