@@ -1,7 +1,6 @@
-
 # -*- coding: utf-8 -*-
 
-# generate new kinds of pokemons
+# generate new kinds of uh... stuff
 
 import os
 import tensorflow as tf
